@@ -9,6 +9,6 @@
 
 代码、资料、离线测试、真实输入输出和 Trace、五份规定文档及 .env.example 已存在。未完成项详见 03-evaluation.md。
 
-建议评审顺序：README → 03-evaluation → 真实 Trace → core.py → tests。运行命令以 README 为准。用户已提供目标仓库并授权交付；Git 远端读取及 HTTPS 连通性检查均超时，尚未完成推送。仓库内容将先保留本地提交；网络恢复后执行 `git push -u origin main`，若远端非空应先 fetch/review，不可强推。
+建议评审顺序：README → 03-evaluation → 真实 Trace → core.py → tests。运行命令以 README 为准。用户已提供目标仓库并授权交付。早期 GitHub 连接超时，随后网络恢复，main 已普通推送成功；没有强制覆盖。最终 SHA 以 `git rev-parse HEAD` 或 GitHub main 为准。
 
 提交时不包含 .env、真实密钥、.DS_Store、缓存。模型凭证只在本地填写，已出现在聊天中的凭证应在平台撤销轮换。
