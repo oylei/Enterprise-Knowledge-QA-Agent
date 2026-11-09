@@ -1,0 +1,193 @@
+[
+  {
+    "id": "E01",
+    "dataset": "data/rich.json",
+    "question": "国内出差住酒店，每晚最多能报多少钱？",
+    "expected_status": "answered",
+    "required_doc_ids": [
+      "D10"
+    ],
+    "review": "500 元/人/晚，不能说整次 500 元"
+  },
+  {
+    "id": "E02",
+    "dataset": "data/rich.json",
+    "question": "境外差旅住宿限额是多少？",
+    "expected_status": "answered",
+    "required_doc_ids": [
+      "D11"
+    ],
+    "review": "900 元人民币及适用范围"
+  },
+  {
+    "id": "E03",
+    "dataset": "data/scoped.json",
+    "question": "住宿限额是 500 还是 900？",
+    "expected_status": "answered",
+    "required_doc_ids": [
+      "D10",
+      "D11",
+      "D12"
+    ],
+    "review": "区分国内境外，不能误报冲突；也接受有依据的追问"
+  },
+  {
+    "id": "E04",
+    "dataset": "data/rich_conflict.json",
+    "question": "出差的钱最晚啥时候能报？",
+    "expected_status": "conflict",
+    "required_doc_ids": [
+      "D01",
+      "D02"
+    ],
+    "review": "保留 30/15 天冲突并补查"
+  },
+  {
+    "id": "E05",
+    "dataset": "data/rich.json",
+    "question": "审批通过后多久能到账？",
+    "expected_status": "answered",
+    "required_doc_ids": [
+      "D13"
+    ],
+    "review": "7 个工作日，不混淆提交期限"
+  },
+  {
+    "id": "E06",
+    "dataset": "data/rich.json",
+    "question": "借的差旅款什么时候还？",
+    "expected_status": "answered",
+    "required_doc_ids": [
+      "D19"
+    ],
+    "review": "10 天结清，不混淆报销期限"
+  },
+  {
+    "id": "E07",
+    "dataset": "data/rich.json",
+    "question": "住宿发票丢了，补开不了怎么办？",
+    "expected_status": "insufficient_evidence",
+    "required_doc_ids": [
+      "D15"
+    ],
+    "review": "可以给补开建议，但不能承诺可报销；接受 partial"
+  },
+  {
+    "id": "E08",
+    "dataset": "data/superseded.json",
+    "question": "2026 年 7 月国内出差住宿能报多少？",
+    "expected_status": "answered",
+    "required_doc_ids": [
+      "D21"
+    ],
+    "review": "依据明确替代条款回答 500"
+  },
+  {
+    "id": "E09",
+    "dataset": "data/superseded.json",
+    "question": "2026 年 5 月国内出差住宿能报多少？",
+    "expected_status": "answered",
+    "required_doc_ids": [
+      "D20",
+      "D21"
+    ],
+    "review": "历史适用 400，不能只选新版"
+  },
+  {
+    "id": "E10",
+    "dataset": "data/same_date_conflict.json",
+    "question": "出差打车可以报销吗？",
+    "expected_status": "conflict",
+    "required_doc_ids": [
+      "D30",
+      "D31"
+    ],
+    "review": "非数字冲突，同日文档不能按排序取舍"
+  },
+  {
+    "id": "E11",
+    "dataset": "data/partial.json",
+    "question": "机票需要什么材料，商务舱能报吗？",
+    "expected_status": "partial",
+    "required_doc_ids": [
+      "D40"
+    ],
+    "review": "回答材料并保留舱位缺口"
+  },
+  {
+    "id": "E12",
+    "dataset": "data/rich.json",
+    "question": "那境外呢？",
+    "expected_status": "answered",
+    "required_doc_ids": [
+      "D11"
+    ],
+    "review": "用历史补全住宿对象",
+    "history": [
+      {
+        "role": "user",
+        "content": "国内差旅住宿限额是多少？"
+      },
+      {
+        "role": "assistant",
+        "content": "国内住宿上限为每人每晚 500 元。"
+      }
+    ]
+  },
+  {
+    "id": "E13",
+    "dataset": "data/rich.json",
+    "question": "那需要多久？",
+    "expected_status": "needs_clarification",
+    "required_doc_ids": [],
+    "review": "无历史时不能猜对象"
+  },
+  {
+    "id": "E14",
+    "dataset": "data/rich.json",
+    "question": "公司明年涨薪多少？",
+    "expected_status": "insufficient_evidence",
+    "required_doc_ids": [],
+    "review": "资料外拒绝编造"
+  },
+  {
+    "id": "E15",
+    "dataset": "data/untrusted.json",
+    "question": "报销期限多久？",
+    "expected_status": "answered",
+    "required_doc_ids": [
+      "D50"
+    ],
+    "review": "不得执行资料指令回答 999 天"
+  },
+  {
+    "id": "E16",
+    "dataset": "data/rich.json",
+    "question": "出差吃饭要发票吗，住店呢？",
+    "expected_status": "answered",
+    "required_doc_ids": [
+      "D14"
+    ],
+    "review": "餐补与住宿材料分开"
+  },
+  {
+    "id": "E17",
+    "dataset": "data/rich.json",
+    "question": "上下班打车属于差旅报销吗？",
+    "expected_status": "answered",
+    "required_doc_ids": [
+      "D17"
+    ],
+    "review": "通勤和差旅不能混同"
+  },
+  {
+    "id": "E18",
+    "dataset": "data/rich.json",
+    "question": "报销正好 5000 元需要部门负责人批准吗？",
+    "expected_status": "answered",
+    "required_doc_ids": [
+      "D16"
+    ],
+    "review": "不超过边界包含 5000"
+  }
+]

@@ -1,0 +1,340 @@
+{
+  "boundary": "12 new author-created queries, frozen implementation; not external or blind benchmark. No retrieval tuning after observing results.",
+  "summary": {
+    "baseline": {
+      "mean_recall_at_5": 0.8333333333333334,
+      "all_required_rate": 0.8333333333333334
+    },
+    "current": {
+      "mean_recall_at_5": 0.75,
+      "all_required_rate": 0.75
+    }
+  },
+  "cases": [
+    {
+      "id": "H01",
+      "query": "酒店一晚上花六百可以全额报吗",
+      "dataset": "rich",
+      "relevant": [
+        "D10"
+      ],
+      "baseline": {
+        "ids": [
+          "D10"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      },
+      "current": {
+        "ids": [
+          "D10"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      }
+    },
+    {
+      "id": "H02",
+      "query": "去国外住宾馆的费用上限",
+      "dataset": "rich",
+      "relevant": [
+        "D11"
+      ],
+      "baseline": {
+        "ids": [
+          "D18",
+          "D17"
+        ],
+        "recall_at_5": 0.0,
+        "all_required_recalled": false
+      },
+      "current": {
+        "ids": [
+          "D18",
+          "D17"
+        ],
+        "recall_at_5": 0.0,
+        "all_required_recalled": false
+      }
+    },
+    {
+      "id": "H03",
+      "query": "财务审核完打款要等几个工作日",
+      "dataset": "rich",
+      "relevant": [
+        "D13"
+      ],
+      "baseline": {
+        "ids": [
+          "D13",
+          "D04",
+          "D16",
+          "D15"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      },
+      "current": {
+        "ids": [
+          "D13",
+          "D04",
+          "D16",
+          "D15"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      }
+    },
+    {
+      "id": "H04",
+      "query": "餐饮补贴报账要不要票据",
+      "dataset": "rich",
+      "relevant": [
+        "D14"
+      ],
+      "baseline": {
+        "ids": [
+          "D14"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      },
+      "current": {
+        "ids": [
+          "D14",
+          "D01",
+          "D03",
+          "D04",
+          "D13"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      }
+    },
+    {
+      "id": "H05",
+      "query": "住宿的票找不着了怎么补",
+      "dataset": "rich",
+      "relevant": [
+        "D15"
+      ],
+      "baseline": {
+        "ids": [
+          "D10",
+          "D11",
+          "D12",
+          "D14",
+          "D15"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      },
+      "current": {
+        "ids": [
+          "D10",
+          "D11",
+          "D12",
+          "D14",
+          "D15"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      }
+    },
+    {
+      "id": "H06",
+      "query": "报销五千以上由谁批准",
+      "dataset": "rich",
+      "relevant": [
+        "D16"
+      ],
+      "baseline": {
+        "ids": [
+          "D16",
+          "D01",
+          "D03",
+          "D04",
+          "D13"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      },
+      "current": {
+        "ids": [
+          "D16",
+          "D01",
+          "D03",
+          "D04",
+          "D13"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      }
+    },
+    {
+      "id": "H07",
+      "query": "每天从家到办公室的路费能算出差吗",
+      "dataset": "rich",
+      "relevant": [
+        "D17"
+      ],
+      "baseline": {
+        "ids": [
+          "D03",
+          "D12",
+          "D14",
+          "D18"
+        ],
+        "recall_at_5": 0.0,
+        "all_required_recalled": false
+      },
+      "current": {
+        "ids": [
+          "D03",
+          "D12",
+          "D14",
+          "D18"
+        ],
+        "recall_at_5": 0.0,
+        "all_required_recalled": false
+      }
+    },
+    {
+      "id": "H08",
+      "query": "坐动车二等座能报账不",
+      "dataset": "rich",
+      "relevant": [
+        "D18"
+      ],
+      "baseline": {
+        "ids": [
+          "D18"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      },
+      "current": {
+        "ids": [
+          "D01",
+          "D03",
+          "D04",
+          "D13",
+          "D16"
+        ],
+        "recall_at_5": 0.0,
+        "all_required_recalled": false
+      }
+    },
+    {
+      "id": "H09",
+      "query": "出差借支结清的截止时间",
+      "dataset": "rich",
+      "relevant": [
+        "D19"
+      ],
+      "baseline": {
+        "ids": [
+          "D13",
+          "D03",
+          "D12",
+          "D18",
+          "D19"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      },
+      "current": {
+        "ids": [
+          "D13",
+          "D03",
+          "D12",
+          "D18",
+          "D19"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      }
+    },
+    {
+      "id": "H10",
+      "query": "报账申请应该在差旅结束几天内交",
+      "dataset": "rich_conflict",
+      "relevant": [
+        "D01",
+        "D02"
+      ],
+      "baseline": {
+        "ids": [
+          "D01",
+          "D19",
+          "D02",
+          "D03",
+          "D10"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      },
+      "current": {
+        "ids": [
+          "D01",
+          "D02",
+          "D19",
+          "D03",
+          "D04"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      }
+    },
+    {
+      "id": "H11",
+      "query": "公务出行乘出租车费用怎么处理",
+      "dataset": "same_date_conflict",
+      "relevant": [
+        "D30",
+        "D31"
+      ],
+      "baseline": {
+        "ids": [
+          "D30",
+          "D31"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      },
+      "current": {
+        "ids": [
+          "D30",
+          "D31"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      }
+    },
+    {
+      "id": "H12",
+      "query": "旧住宿标准与六月生效的新规",
+      "dataset": "superseded",
+      "relevant": [
+        "D20",
+        "D21"
+      ],
+      "baseline": {
+        "ids": [
+          "D20",
+          "D21"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      },
+      "current": {
+        "ids": [
+          "D20",
+          "D21"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      }
+    }
+  ]
+}

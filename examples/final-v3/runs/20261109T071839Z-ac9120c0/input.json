@@ -1,0 +1,13 @@
+{
+  "question": "那境外呢？",
+  "history": [
+    {
+      "role": "user",
+      "content": "国内差旅住宿限额是多少？"
+    },
+    {
+      "role": "assistant",
+      "content": "国内住宿上限为每人每晚 500 元。"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "provider": "mock",
+  "model": "offline-script-v1",
+  "dataset_sha256": "e814a767fd7cfd826e1a917b8aab203848ec4180618ab8379bdaaccbdfcd38bd",
+  "config": {
+    "command": "ask",
+    "question": "报销材料",
+    "input": null,
+    "dataset": "data/clear.json",
+    "provider": "mock",
+    "max_turns": 12,
+    "max_calls": 16,
+    "fail_reads": 99,
+    "output_dir": "examples/runs/failure"
+  },
+  "prompt_version": "v1",
+  "mock_boundary": "Mock verifies flow only"
+}

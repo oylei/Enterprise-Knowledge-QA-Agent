@@ -1,0 +1,35 @@
+test_clear (test_agent.AgentTests) ... ok
+test_conflict (test_agent.AgentTests) ... ok
+test_failure (test_agent.AgentTests) ... ok
+test_history_rejects_system (test_agent.AgentTests) ... ok
+test_limit (test_agent.AgentTests) ... ok
+test_outside (test_agent.AgentTests) ... ok
+test_paraphrase_retrieval (test_agent.AgentTests) ... ok
+test_recovery (test_agent.AgentTests) ... ok
+test_unread_citation (test_agent.AgentTests) ... ok
+test_updated (test_agent.AgentTests) ... ok
+test_all_datasets_and_case_references (test_config_data.ConfigDataTests) ... ok
+test_error_does_not_disclose_value_or_partially_load (test_config_data.ConfigDataTests) ... ok
+test_literal_and_precedence (test_config_data.ConfigDataTests) ... ok
+test_rich_retrieval_retains_both_conflicting_documents (test_config_data.ConfigDataTests) ... ok
+test_same_date_non_numeric_conflict (test_config_data.ConfigDataTests) ... ok
+test_anthropic_multiple_results_grouped (test_errors.AdapterTests) ... ok
+test_chat_roundtrip_tool_result (test_errors.AdapterTests) ... ok
+test_chat_truncated_response (test_errors.AdapterTests) ... ok
+test_batch_cannot_exceed_budget (test_errors.ErrorTests) ... ok
+test_history_and_fault_inputs (test_errors.ErrorTests) ... ok
+test_invalid_json (test_errors.ErrorTests) ... ok
+test_invalid_protocol (test_errors.ErrorTests) ... ok
+test_malformed_api_json (test_errors.ErrorTests) ... ok
+test_model_error_record_is_sanitized (test_errors.ErrorTests) ... ok
+test_permanent_http_does_not_retry (test_errors.ErrorTests) ... ok
+test_timeout_bounded (test_errors.ErrorTests) ... ok
+test_tool_exception_is_observation (test_errors.ErrorTests) ... ok
+test_transient_http_retries_once (test_errors.ErrorTests) ... ok
+test_unknown_extra_and_nested_parameters (test_errors.ErrorTests) ... ok
+test_platform_configuration_is_isolated (test_provider.ProviderTests) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.007s
+
+OK

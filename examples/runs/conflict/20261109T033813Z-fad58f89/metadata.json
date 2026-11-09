@@ -1,0 +1,18 @@
+{
+  "provider": "mock",
+  "model": "offline-script-v1",
+  "dataset_sha256": "e9a545621f5c47d4c1864c22d029f851e43d132b1895dbc5bef4cc2f2e988ad8",
+  "config": {
+    "command": "ask",
+    "question": "报销期限多久？",
+    "input": null,
+    "dataset": "data/conflict.json",
+    "provider": "mock",
+    "max_turns": 12,
+    "max_calls": 16,
+    "fail_reads": 0,
+    "output_dir": "examples/runs/conflict"
+  },
+  "prompt_version": "v1",
+  "mock_boundary": "Mock verifies flow only"
+}

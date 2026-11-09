@@ -1,0 +1,12 @@
+{
+  "status": "insufficient_evidence",
+  "answer": "当前资料未找到依据。",
+  "claims": [],
+  "citations": [],
+  "gaps": [
+    "缺少相关资料"
+  ],
+  "follow_up_question": "",
+  "stop_reason": "model_finished",
+  "trace_id": "20261109T033813Z-9bbc9a83"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "insufficient_evidence",
+  "answer": "本资料库只覆盖差旅与报销事项，没有涨薪/调薪（薪酬调整）方面的制度内容，因此无法回答公司明年涨薪多少。如需差旅报销相关问题，我可以继续查询。",
+  "claims": [],
+  "citations": [],
+  "gaps": [
+    "当前资料仅覆盖差旅与报销，未检索到薪酬调整、涨薪幅度相关内容。"
+  ],
+  "follow_up_question": "您是否有差旅或报销方面的问题需要查询？",
+  "stop_reason": "model_finished",
+  "trace_id": "20261109T071752Z-d9ac1201"
+}

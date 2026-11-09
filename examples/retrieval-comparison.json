@@ -1,0 +1,226 @@
+{
+  "sample_size": 8,
+  "boundary": "Small development set, not held-out; baseline differs only by synonym normalization. Not evidence of generalization or answer correctness.",
+  "summary": {
+    "baseline": {
+      "mean_recall_at_5": 0.875,
+      "all_required_rate": 0.875
+    },
+    "current": {
+      "mean_recall_at_5": 1.0,
+      "all_required_rate": 1.0
+    }
+  },
+  "cases": [
+    {
+      "query": "报销期限多久",
+      "dataset": "data/rich_conflict.json",
+      "relevant": [
+        "D01",
+        "D02"
+      ],
+      "baseline": {
+        "ids": [
+          "D01",
+          "D02",
+          "D13",
+          "D03",
+          "D04"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      },
+      "current": {
+        "ids": [
+          "D01",
+          "D02",
+          "D13",
+          "D03",
+          "D04"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      }
+    },
+    {
+      "query": "出差的钱最晚啥时候能报",
+      "dataset": "data/rich_conflict.json",
+      "relevant": [
+        "D01",
+        "D02"
+      ],
+      "baseline": {
+        "ids": [
+          "D18",
+          "D03",
+          "D12"
+        ],
+        "recall_at_5": 0.0,
+        "all_required_recalled": false
+      },
+      "current": {
+        "ids": [
+          "D01",
+          "D03",
+          "D02",
+          "D19",
+          "D10"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      }
+    },
+    {
+      "query": "住宿限额",
+      "dataset": "data/scoped.json",
+      "relevant": [
+        "D10",
+        "D11",
+        "D12"
+      ],
+      "baseline": {
+        "ids": [
+          "D10",
+          "D11",
+          "D12",
+          "D14"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      },
+      "current": {
+        "ids": [
+          "D10",
+          "D11",
+          "D12",
+          "D14"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      }
+    },
+    {
+      "query": "出租车费用报销",
+      "dataset": "data/same_date_conflict.json",
+      "relevant": [
+        "D30",
+        "D31"
+      ],
+      "baseline": {
+        "ids": [
+          "D30",
+          "D31"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      },
+      "current": {
+        "ids": [
+          "D30",
+          "D31"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      }
+    },
+    {
+      "query": "审批通过后多久能到账",
+      "dataset": "data/rich.json",
+      "relevant": [
+        "D13"
+      ],
+      "baseline": {
+        "ids": [
+          "D13",
+          "D04",
+          "D16",
+          "D03"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      },
+      "current": {
+        "ids": [
+          "D13",
+          "D04",
+          "D16",
+          "D01",
+          "D03"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      }
+    },
+    {
+      "query": "差旅预借款归还",
+      "dataset": "data/rich.json",
+      "relevant": [
+        "D19"
+      ],
+      "baseline": {
+        "ids": [
+          "D19",
+          "D01",
+          "D03",
+          "D10",
+          "D11"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      },
+      "current": {
+        "ids": [
+          "D19",
+          "D01",
+          "D03",
+          "D10",
+          "D11"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      }
+    },
+    {
+      "query": "机票报销材料",
+      "dataset": "data/partial.json",
+      "relevant": [
+        "D40"
+      ],
+      "baseline": {
+        "ids": [
+          "D40"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      },
+      "current": {
+        "ids": [
+          "D40"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      }
+    },
+    {
+      "query": "上下班通勤",
+      "dataset": "data/rich.json",
+      "relevant": [
+        "D17"
+      ],
+      "baseline": {
+        "ids": [
+          "D17"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      },
+      "current": {
+        "ids": [
+          "D17"
+        ],
+        "recall_at_5": 1.0,
+        "all_required_recalled": true
+      }
+    }
+  ]
+}

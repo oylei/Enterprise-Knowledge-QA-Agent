@@ -1,0 +1,12 @@
+{
+  "status": "tool_error",
+  "answer": "暂时无法读取差旅报销材料制度的原文，因此不能确认所需材料。请稍后重试。",
+  "claims": [],
+  "citations": [],
+  "gaps": [
+    "候选文件 D03《差旅报销材料》的原文多次读取失败，无法核验具体材料清单。"
+  ],
+  "follow_up_question": "是否稍后重新尝试读取《差旅报销材料》原文？",
+  "stop_reason": "model_finished",
+  "trace_id": "20261109T071651Z-8967b9ff"
+}

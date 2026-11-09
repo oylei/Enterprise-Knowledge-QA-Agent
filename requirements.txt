@@ -1,0 +1,3 @@
+# No third-party runtime or test dependencies.
+# Python 3.9+ standard library; validated locally on Python 3.9.6.
+# Run from repository root with PYTHONPATH=src (no package installation required).

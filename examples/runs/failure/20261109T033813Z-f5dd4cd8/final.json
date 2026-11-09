@@ -1,0 +1,12 @@
+{
+  "status": "tool_error",
+  "answer": "资料读取失败，无法完成。",
+  "claims": [],
+  "citations": [],
+  "gaps": [
+    "原文不可用"
+  ],
+  "follow_up_question": "",
+  "stop_reason": "model_finished",
+  "trace_id": "20261109T033813Z-f5dd4cd8"
+}

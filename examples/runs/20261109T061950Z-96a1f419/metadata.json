@@ -1,0 +1,19 @@
+{
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "dataset_sha256": "c3b5380737a1aa6de135ab4a5992dd14b1dfeb507503948dadfc08a99d17ff72",
+  "config": {
+    "command": "ask",
+    "question": "差旅报销应在出差结束后多少天内提交？",
+    "input": null,
+    "env_file": ".env",
+    "dataset": "data/updated.json",
+    "provider": "deepseek",
+    "max_turns": 12,
+    "max_calls": 16,
+    "fail_reads": 0,
+    "output_dir": "examples/runs"
+  },
+  "prompt_version": "v2",
+  "mock_boundary": null
+}

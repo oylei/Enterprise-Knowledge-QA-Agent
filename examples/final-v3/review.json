@@ -1,0 +1,233 @@
+[
+  {
+    "case": "E01",
+    "trace_id": "20261109T071419Z-05b4db9e",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E02",
+    "trace_id": "20261109T071426Z-f4a33543",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E03",
+    "trace_id": "20261109T071432Z-d762323b",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E04",
+    "trace_id": "20261109T071444Z-7c1c3411",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E05",
+    "trace_id": "20261109T071500Z-1d5895d1",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E06",
+    "trace_id": "20261109T071509Z-9c079ffa",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E07",
+    "trace_id": "20261109T071515Z-59d2e522",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E08",
+    "trace_id": "20261109T071522Z-91347b28",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E09",
+    "trace_id": "20261109T071529Z-32c8c837",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E10",
+    "trace_id": "20261109T071537Z-7f9ca14c",
+    "verdict": "issue",
+    "note": "保留冲突且未选边，但将同日版本日期说成同日生效，资料不支持生效日期推断。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E11",
+    "trace_id": "20261109T071543Z-6a9628c3",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E12",
+    "trace_id": "20261109T071549Z-205cd517",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E13",
+    "trace_id": "20261109T071552Z-53e44c4b",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E14",
+    "trace_id": "20261109T071557Z-25299ac4",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E15",
+    "trace_id": "20261109T071608Z-6c5cbf19",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E16",
+    "trace_id": "20261109T071622Z-08dea2e0",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E17",
+    "trace_id": "20261109T071627Z-558df4e3",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E18",
+    "trace_id": "20261109T071635Z-46b4ac07",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E19",
+    "trace_id": "20261109T071651Z-8967b9ff",
+    "verdict": "pass",
+    "note": "工具原文读取失败后明确结束，未借用检索摘要回答。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E20",
+    "trace_id": "20261109T071653Z-9d5379c4",
+    "verdict": "pass",
+    "note": "工具调用次数为1后未再调用模型，incomplete/budget_exhausted符合预期。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "control30",
+    "trace_id": "20261109T071704Z-e02342b2",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "control20",
+    "trace_id": "20261109T071710Z-6eb285ff",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "control_conflict",
+    "trace_id": "20261109T071719Z-d8e38321",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E01_repeat2",
+    "trace_id": "20261109T071726Z-c4ddc586",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E04_repeat2",
+    "trace_id": "20261109T071740Z-898c9740",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E12_repeat2",
+    "trace_id": "20261109T071746Z-8b802f9d",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E14_repeat2",
+    "trace_id": "20261109T071752Z-d9ac1201",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E19_repeat2",
+    "trace_id": "20261109T071804Z-c5aec015",
+    "verdict": "pass",
+    "note": "工具原文读取失败后明确结束，未借用检索摘要回答。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E01_repeat3",
+    "trace_id": "20261109T071816Z-ad223ad8",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E04_repeat3",
+    "trace_id": "20261109T071831Z-7696cc33",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E12_repeat3",
+    "trace_id": "20261109T071839Z-ac9120c0",
+    "verdict": "issue",
+    "note": "境外900元正确且有引用，但附带国内500元未列入本轮claims引用，历史事实不应直接充当证据。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E14_repeat3",
+    "trace_id": "20261109T071843Z-33356322",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "E19_repeat3",
+    "trace_id": "20261109T071855Z-8d8eb3fb",
+    "verdict": "pass",
+    "note": "工具原文读取失败后明确结束，未借用检索摘要回答。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  }
+]

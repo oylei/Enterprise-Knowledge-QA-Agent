@@ -1,0 +1,53 @@
+{
+  "total_runs": 33,
+  "mechanical_passes": 33,
+  "mechanical_failures": [],
+  "stability": {
+    "E01": {
+      "runs": 3,
+      "mechanical_passes": 3,
+      "statuses": [
+        "answered",
+        "answered",
+        "answered"
+      ]
+    },
+    "E04": {
+      "runs": 3,
+      "mechanical_passes": 3,
+      "statuses": [
+        "conflict",
+        "conflict",
+        "conflict"
+      ]
+    },
+    "E12": {
+      "runs": 3,
+      "mechanical_passes": 3,
+      "statuses": [
+        "answered",
+        "answered",
+        "answered"
+      ]
+    },
+    "E14": {
+      "runs": 3,
+      "mechanical_passes": 3,
+      "statuses": [
+        "insufficient_evidence",
+        "insufficient_evidence",
+        "insufficient_evidence"
+      ]
+    },
+    "E19": {
+      "runs": 3,
+      "mechanical_passes": 3,
+      "statuses": [
+        "tool_error",
+        "tool_error",
+        "tool_error"
+      ]
+    }
+  },
+  "warning": "Mechanical pass checks status and required read documents, not semantic correctness. See review.json."
+}

@@ -1,0 +1,19 @@
+{
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "dataset_sha256": "e814a767fd7cfd826e1a917b8aab203848ec4180618ab8379bdaaccbdfcd38bd",
+  "config": {
+    "command": "ask",
+    "question": "出差的钱最晚啥时候能报？",
+    "input": null,
+    "env_file": ".env",
+    "dataset": "data/clear.json",
+    "provider": "deepseek",
+    "max_turns": 12,
+    "max_calls": 16,
+    "fail_reads": 0,
+    "output_dir": "examples/runs"
+  },
+  "prompt_version": "v1",
+  "mock_boundary": null
+}

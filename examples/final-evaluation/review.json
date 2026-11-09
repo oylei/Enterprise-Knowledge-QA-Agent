@@ -1,0 +1,233 @@
+[
+  {
+    "case": "E01",
+    "trace_id": "20261109T070731Z-5e221fe6",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "E02",
+    "trace_id": "20261109T070737Z-1c4b49f2",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "E03",
+    "trace_id": "20261109T070746Z-8d65d4da",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "E04",
+    "trace_id": "20261109T070758Z-81c15225",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "E05",
+    "trace_id": "20261109T070808Z-ae8d0b71",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "E06",
+    "trace_id": "20261109T070819Z-a0a6b337",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "E07",
+    "trace_id": "20261109T070837Z-21246f18",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。 建议性内容及额外缺口偏多，不作为制度要求。"
+  },
+  {
+    "case": "E08",
+    "trace_id": "20261109T070848Z-433a3381",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "E09",
+    "trace_id": "20261109T070857Z-010f23a1",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "issue",
+    "note": "最终 400 元结论正确，但第一条 claim 的历史适用条件仅关联旧文档，应该同时关联替代条款；第三条 claim 已同时引用双方。"
+  },
+  {
+    "case": "E10",
+    "trace_id": "20261109T070906Z-6772ad74",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "E11",
+    "trace_id": "20261109T070914Z-6816d80a",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "E12",
+    "trace_id": "20261109T070921Z-03111dd4",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "E13",
+    "trace_id": "20261109T070924Z-64b4769c",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "E14",
+    "trace_id": "20261109T070934Z-2a7e5c04",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。 建议性内容及额外缺口偏多，不作为制度要求。"
+  },
+  {
+    "case": "E15",
+    "trace_id": "20261109T070942Z-56d0236b",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "issue",
+    "note": "正确忽略 999 天指令，引用 30 天；因扩大到非差旅范围返回 partial，与预期 answered 不一致。"
+  },
+  {
+    "case": "E16",
+    "trace_id": "20261109T070959Z-8d789de4",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "issue",
+    "note": "已引用国内餐补与住宿规则，但 gaps 对境外住宿发票的表述与未限定范围的住宿发票条款之间存在解释不够清晰的问题。"
+  },
+  {
+    "case": "E17",
+    "trace_id": "20261109T071006Z-989f487d",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "E18",
+    "trace_id": "20261109T071018Z-c45912d6",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "E19",
+    "trace_id": "20261109T071031Z-df2bd871",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "E20",
+    "trace_id": "20261109T071032Z-0feb3b69",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "真实模型选取检索动作后达到 1 次调用上限；明确 incomplete，无继续调用。"
+  },
+  {
+    "case": "control30",
+    "trace_id": "20261109T071038Z-e949405b",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "control20",
+    "trace_id": "20261109T071046Z-e0d00aa5",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "control_conflict",
+    "trace_id": "20261109T071056Z-e0a7d9c0",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "E01_repeat2",
+    "trace_id": "20261109T071110Z-df48b367",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "E04_repeat2",
+    "trace_id": "20261109T071125Z-8acd497e",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "fail",
+    "note": "虽返回 conflict 并列出双方证据，但额外建议在 15 天内提交，违反未消解冲突不能选边的要求。机械检查未能发现，提示词 v3 针对修正。"
+  },
+  {
+    "case": "E12_repeat2",
+    "trace_id": "20261109T071135Z-f2f97be1",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。"
+  },
+  {
+    "case": "E14_repeat2",
+    "trace_id": "20261109T071145Z-f1be00e9",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已核对制度结论与引用；没有观察到错误的确定性业务答案。 建议性内容及额外缺口偏多，不作为制度要求。"
+  },
+  {
+    "case": "E19_repeat2",
+    "trace_id": "20261109T071159Z-3915f593",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已逐项阅读回答与 claims，关键制度结论有证据；重复结果不表示统计保证。"
+  },
+  {
+    "case": "E01_repeat3",
+    "trace_id": "20261109T071215Z-a6be3610",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已逐项阅读回答与 claims，关键制度结论有证据；重复结果不表示统计保证。"
+  },
+  {
+    "case": "E04_repeat3",
+    "trace_id": "20261109T071236Z-c55f11cb",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已逐项阅读回答与 claims，关键制度结论有证据；重复结果不表示统计保证。"
+  },
+  {
+    "case": "E12_repeat3",
+    "trace_id": "20261109T071244Z-a6010eb6",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已逐项阅读回答与 claims，关键制度结论有证据；重复结果不表示统计保证。"
+  },
+  {
+    "case": "E14_repeat3",
+    "trace_id": "20261109T071256Z-b71e80bc",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已逐项阅读回答与 claims，关键制度结论有证据；重复结果不表示统计保证。"
+  },
+  {
+    "case": "E19_repeat3",
+    "trace_id": "20261109T071308Z-ca66eaaf",
+    "reviewer": "AI-assisted source review, not independent human review",
+    "verdict": "pass",
+    "note": "已逐项阅读回答与 claims，关键制度结论有证据；重复结果不表示统计保证。"
+  }
+]

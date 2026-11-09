@@ -1,0 +1,32 @@
+[
+  {
+    "case": "H02",
+    "question": "去国外住宾馆的费用上限",
+    "status": "answered",
+    "trace_id": "20261109T071839Z-3ef7c589",
+    "required": [
+      "D11"
+    ],
+    "recovered": true
+  },
+  {
+    "case": "H07",
+    "question": "每天从家到办公室的路费能算出差吗",
+    "status": "answered",
+    "trace_id": "20261109T071845Z-f1b4f4a4",
+    "required": [
+      "D17"
+    ],
+    "recovered": true
+  },
+  {
+    "case": "H08",
+    "question": "坐动车二等座能报账不",
+    "status": "answered",
+    "trace_id": "20261109T071853Z-f0641342",
+    "required": [
+      "D18"
+    ],
+    "recovered": true
+  }
+]

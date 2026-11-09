@@ -1,0 +1,2 @@
+{"step": 1, "turn": 1, "tool": "search_documents", "arguments": {"query": "火星天气", "top_k": 5, "reason": "离线脚本根据工具观察推进，仅验证流程"}, "result": {"ok": true, "candidates": [], "total": 0, "truncated": false}}
+{"step": 2, "turn": 2, "tool": "finish", "arguments": {"status": "insufficient_evidence", "answer": "当前资料未找到依据。", "claims": [], "citations": [], "gaps": ["缺少相关资料"], "follow_up_question": "", "reason": "离线脚本根据工具观察推进，仅验证流程"}, "result": {"ok": true}}

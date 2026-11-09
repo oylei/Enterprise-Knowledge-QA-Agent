@@ -1,0 +1,2 @@
+{"step": 1, "turn": 1, "tool": "search_documents", "arguments": {"query": "涨薪 薪酬调整 年度调薪", "reason": "确认资料范围内是否存在薪酬调整相关制度", "top_k": 5}, "result": {"ok": true, "candidates": [], "total": 0, "truncated": false}}
+{"step": 2, "turn": 2, "tool": "finish", "arguments": {"status": "insufficient_evidence", "answer": "本项目资料仅覆盖差旅与报销，未包含薪酬调整（涨薪）相关规定，因此无法回答公司明年涨薪多少。", "claims": [], "citations": [], "gaps": ["检索“涨薪/薪酬调整/年度调薪”无结果，当前资料范围仅覆盖差旅与报销，不含薪酬调整制度。"], "follow_up_question": "您咨询的是差旅或报销方面的问题吗？如需涨薪信息，请向人力资源部门确认。", "reason": "问题超出本项目差旅与报销资料范围，检索无相关制度，按证据不足处理。"}, "result": {"ok": true}}

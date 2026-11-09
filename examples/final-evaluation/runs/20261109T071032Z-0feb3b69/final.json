@@ -1,0 +1,13 @@
+{
+  "status": "incomplete",
+  "answer": "任务未完成。",
+  "claims": [],
+  "citations": [],
+  "gaps": [
+    "尚未形成经过验证的完整答案"
+  ],
+  "follow_up_question": "",
+  "stop_reason": "budget_exhausted",
+  "evidence": [],
+  "trace_id": "20261109T071032Z-0feb3b69"
+}

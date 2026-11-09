@@ -1,0 +1,434 @@
+[
+  {
+    "case": "E01",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T071419Z-05b4db9e",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E02",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T071426Z-f4a33543",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E03",
+    "accepted_statuses": [
+      "answered",
+      "needs_clarification"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T071432Z-d762323b",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E04",
+    "accepted_statuses": [
+      "conflict"
+    ],
+    "status": "conflict",
+    "trace_id": "20261109T071444Z-7c1c3411",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E05",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T071500Z-1d5895d1",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E06",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T071509Z-9c079ffa",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E07",
+    "accepted_statuses": [
+      "insufficient_evidence",
+      "partial"
+    ],
+    "status": "partial",
+    "trace_id": "20261109T071515Z-59d2e522",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E08",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T071522Z-91347b28",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E09",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T071529Z-32c8c837",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E10",
+    "accepted_statuses": [
+      "conflict"
+    ],
+    "status": "conflict",
+    "trace_id": "20261109T071537Z-7f9ca14c",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E11",
+    "accepted_statuses": [
+      "partial"
+    ],
+    "status": "partial",
+    "trace_id": "20261109T071543Z-6a9628c3",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E12",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T071549Z-205cd517",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E13",
+    "accepted_statuses": [
+      "needs_clarification"
+    ],
+    "status": "needs_clarification",
+    "trace_id": "20261109T071552Z-53e44c4b",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E14",
+    "accepted_statuses": [
+      "insufficient_evidence"
+    ],
+    "status": "insufficient_evidence",
+    "trace_id": "20261109T071557Z-25299ac4",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E15",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T071608Z-6c5cbf19",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E16",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T071622Z-08dea2e0",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E17",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T071627Z-558df4e3",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E18",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T071635Z-46b4ac07",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E19",
+    "accepted_statuses": [
+      "tool_error"
+    ],
+    "status": "tool_error",
+    "trace_id": "20261109T071651Z-8967b9ff",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E20",
+    "accepted_statuses": [
+      "incomplete"
+    ],
+    "status": "incomplete",
+    "trace_id": "20261109T071653Z-9d5379c4",
+    "checks": {
+      "status": true,
+      "required_documents": true,
+      "budget": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "control30",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T071704Z-e02342b2",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "control20",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T071710Z-6eb285ff",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "control_conflict",
+    "accepted_statuses": [
+      "conflict"
+    ],
+    "status": "conflict",
+    "trace_id": "20261109T071719Z-d8e38321",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E01_repeat2",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T071726Z-c4ddc586",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E04_repeat2",
+    "accepted_statuses": [
+      "conflict"
+    ],
+    "status": "conflict",
+    "trace_id": "20261109T071740Z-898c9740",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E12_repeat2",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T071746Z-8b802f9d",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E14_repeat2",
+    "accepted_statuses": [
+      "insufficient_evidence"
+    ],
+    "status": "insufficient_evidence",
+    "trace_id": "20261109T071752Z-d9ac1201",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E19_repeat2",
+    "accepted_statuses": [
+      "tool_error"
+    ],
+    "status": "tool_error",
+    "trace_id": "20261109T071804Z-c5aec015",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E01_repeat3",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T071816Z-ad223ad8",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E04_repeat3",
+    "accepted_statuses": [
+      "conflict"
+    ],
+    "status": "conflict",
+    "trace_id": "20261109T071831Z-7696cc33",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E12_repeat3",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T071839Z-ac9120c0",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E14_repeat3",
+    "accepted_statuses": [
+      "insufficient_evidence"
+    ],
+    "status": "insufficient_evidence",
+    "trace_id": "20261109T071843Z-33356322",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  {
+    "case": "E19_repeat3",
+    "accepted_statuses": [
+      "tool_error"
+    ],
+    "status": "tool_error",
+    "trace_id": "20261109T071855Z-8d8eb3fb",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  }
+]

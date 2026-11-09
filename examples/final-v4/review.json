@@ -1,0 +1,233 @@
+[
+  {
+    "case": "E01",
+    "trace_id": "20261109T073510Z-d2eb46b9",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E02",
+    "trace_id": "20261109T073519Z-09c3561c",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E03",
+    "trace_id": "20261109T073525Z-a767d5c1",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E04",
+    "trace_id": "20261109T073540Z-83f163c8",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E05",
+    "trace_id": "20261109T073550Z-332a26c7",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E06",
+    "trace_id": "20261109T073601Z-9d190428",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E07",
+    "trace_id": "20261109T073611Z-6b2ec780",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E08",
+    "trace_id": "20261109T073619Z-f1ee7c2f",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E09",
+    "trace_id": "20261109T073626Z-997377c2",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E10",
+    "trace_id": "20261109T073637Z-512da72c",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E11",
+    "trace_id": "20261109T073644Z-a9b52839",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E12",
+    "trace_id": "20261109T073652Z-9937c209",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E13",
+    "trace_id": "20261109T073659Z-f3857a24",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E14",
+    "trace_id": "20261109T073704Z-aa7583d4",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E15",
+    "trace_id": "20261109T073710Z-ccaf48db",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E16",
+    "trace_id": "20261109T073730Z-350f1ec0",
+    "verdict": "caveat",
+    "note": "国内免餐票与住宿需要发票均正确；境外住宿是否需发票仍受D14分句范围歧义影响，模型保留缺口，不能宣称此范围已被制度明确解决。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E17",
+    "trace_id": "20261109T073736Z-59201f93",
+    "verdict": "caveat",
+    "note": "通勤不属于差旅的结论及引用正确；额外“本月项目”是无依据的非业务措辞，需避免。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E18",
+    "trace_id": "20261109T073746Z-5b5d1862",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E19",
+    "trace_id": "20261109T073757Z-53a40aca",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E20",
+    "trace_id": "20261109T073758Z-698eccc2",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "control30",
+    "trace_id": "20261109T073805Z-f6588ea0",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "control20",
+    "trace_id": "20261109T073813Z-4f176086",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "control_conflict",
+    "trace_id": "20261109T073823Z-4b5dcbac",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E01_repeat2",
+    "trace_id": "20261109T073831Z-09c53626",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E04_repeat2",
+    "trace_id": "20261109T073842Z-91209ffc",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E12_repeat2",
+    "trace_id": "20261109T073849Z-dfe66862",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E14_repeat2",
+    "trace_id": "20261109T073854Z-f15dd519",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E19_repeat2",
+    "trace_id": "20261109T073905Z-39595e01",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E01_repeat3",
+    "trace_id": "20261109T073913Z-556c4a33",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E04_repeat3",
+    "trace_id": "20261109T073929Z-5c2fc3be",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E12_repeat3",
+    "trace_id": "20261109T073935Z-b94d9653",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E14_repeat3",
+    "trace_id": "20261109T073940Z-c539566e",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  },
+  {
+    "case": "E19_repeat3",
+    "trace_id": "20261109T073949Z-572ead66",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  }
+]

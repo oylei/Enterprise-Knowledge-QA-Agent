@@ -1,0 +1,19 @@
+{
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "dataset_sha256": "1483decdcb99cf816cfb93dde26c56292581762f5f8160642e9161267264e612",
+  "config": {
+    "command": "ask",
+    "question": null,
+    "input": "examples/inputs/E10.json",
+    "env_file": ".env",
+    "dataset": "data/same_date_conflict.json",
+    "provider": "deepseek",
+    "max_turns": 12,
+    "max_calls": 16,
+    "fail_reads": 0,
+    "output_dir": "examples/runs"
+  },
+  "prompt_version": "v1",
+  "mock_boundary": null
+}

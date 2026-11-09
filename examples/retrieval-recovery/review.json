@@ -1,0 +1,23 @@
+[
+  {
+    "case": "H02",
+    "trace_id": "20261109T071839Z-3ef7c589",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "H07",
+    "trace_id": "20261109T071845Z-f1b4f4a4",
+    "verdict": "pass",
+    "note": "已逐项核对回答、claims 及引用原文，核心业务结论有支持。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  },
+  {
+    "case": "H08",
+    "trace_id": "20261109T071853Z-f0641342",
+    "verdict": "issue",
+    "note": "召回D18成功，但先回答“可以”再说明动车适用性需确认，自相矛盾；只能记为证据恢复，不应记为语义通过。",
+    "reviewer": "AI-assisted source review, not independent human review"
+  }
+]

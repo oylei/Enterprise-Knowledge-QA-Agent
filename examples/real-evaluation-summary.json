@@ -1,0 +1,44 @@
+[
+  {
+    "case": "E03",
+    "expected": "answered",
+    "actual": "answered",
+    "trace_id": "20261109T060146Z-6fcab144",
+    "exit_code": 0
+  },
+  {
+    "case": "E10",
+    "expected": "conflict",
+    "actual": "conflict",
+    "trace_id": "20261109T060155Z-756c779a",
+    "exit_code": 0
+  },
+  {
+    "case": "E11",
+    "expected": "partial",
+    "actual": "partial",
+    "trace_id": "20261109T060205Z-11c75081",
+    "exit_code": 0
+  },
+  {
+    "case": "E12",
+    "expected": "answered",
+    "actual": "answered",
+    "trace_id": "20261109T060211Z-2d7fb534",
+    "exit_code": 0
+  },
+  {
+    "case": "E14",
+    "expected": "insufficient_evidence",
+    "actual": "insufficient_evidence",
+    "trace_id": "20261109T060222Z-f29be225",
+    "exit_code": 0
+  },
+  {
+    "case": "E19",
+    "expected": "tool_error",
+    "actual": "tool_error",
+    "trace_id": "20261109T060235Z-fcf588ba",
+    "exit_code": 2
+  }
+]

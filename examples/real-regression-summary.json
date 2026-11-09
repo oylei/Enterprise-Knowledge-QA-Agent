@@ -1,0 +1,20 @@
+[
+  {
+    "case": "paraphrase",
+    "expected_status": "answered",
+    "actual_status": "answered",
+    "trace_id": "20261109T061735Z-01d00d25"
+  },
+  {
+    "case": "updated",
+    "expected_status": "answered",
+    "actual_status": "partial",
+    "trace_id": "20261109T061744Z-1456ef85"
+  },
+  {
+    "case": "new_conflict",
+    "expected_status": "conflict",
+    "actual_status": "conflict",
+    "trace_id": "20261109T061753Z-3ba01848"
+  }
+]
