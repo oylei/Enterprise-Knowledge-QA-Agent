@@ -16,13 +16,13 @@
 
 | 内容 | 文件 |
 |---|---|
-| 离线原始结果 | [test-results.txt](../examples/test-results.txt) |
-| v2完整结果/语义问题 | [summary](../examples/final-evaluation/summary.json)、[review](../examples/final-evaluation/review.json) |
-| v3完整结果/语义问题 | [metrics](../examples/final-v3/metrics.json)、[review](../examples/final-v3/review.json) |
-| 最终v4结果 | [summary](../examples/final-v4/summary.json)、[metrics](../examples/final-v4/metrics.json)、[review](../examples/final-v4/review.json) |
-| 开发集检索 | [retrieval-comparison.json](../examples/retrieval-comparison.json) |
-| 独立问法检索 | [retrieval-holdout.json](../examples/retrieval-holdout.json) |
-| 真实检索恢复 | [summary](../examples/retrieval-recovery/summary.json)、[review](../examples/retrieval-recovery/review.json) |
+| 离线原始结果 | [离线测试结果_30项.txt](../examples/离线测试结果_30项.txt) |
+| v2完整结果/语义问题 | [summary](../examples/archive/v2全量回归/summary.json)、[review](../examples/archive/v2全量回归/review.json) |
+| v3完整结果/语义问题 | [metrics](../examples/archive/v3全量回归/metrics.json)、[review](../examples/archive/v3全量回归/review.json) |
+| 最终v4结果 | [summary](../examples/archive/v4原始全量回归/summary.json)、[metrics](../examples/archive/v4原始全量回归/metrics.json)、[review](../examples/archive/v4原始全量回归/review.json) |
+| 开发集检索 | [检索对照_开发集8问.json](../examples/检索对照_开发集8问.json) |
+| 独立问法检索 | [检索对照_独立集12问.json](../examples/检索对照_独立集12问.json) |
+| 真实检索恢复 | [summary](../examples/archive/检索恢复原始记录/summary.json)、[review](../examples/archive/检索恢复原始记录/review.json) |
 
 各批量目录 runs/<trace_id>/ 下包含输入、输出、Trace 和元信息。语义 review 是 AI 辅助逐项阅读原文，不冒充独立人工评审。机械通过只检查状态、必要文档被读取和预算，不等于结论全部有依据。
 
@@ -41,5 +41,3 @@
 ## 最终 v4 汇总
 
 33/33 状态、必要证据和预算机械检查通过。五类核心场景各3次，15/15机械通过；三次冲突回答均保留冲突，没有建议选用15天。固定问题对照正确返回30天、20天及conflict。逐项AI辅助审查后，E16仍有住宿发票分句范围歧义，E17出现非业务的“本月项目”措辞；因此不宣称33项输出无缺陷。此前H08额外泛化测试的语义问题保留在独立恢复报告中，尚未对所有泛化表达证明可靠。
-
-完成任务指工程与约定评估已执行，并非所有模型错误已消除。待用户填写：学习收获、亲自修改验证、实际投入时间。GitHub发布已完成；早期连接超时记录保留为实际过程说明。

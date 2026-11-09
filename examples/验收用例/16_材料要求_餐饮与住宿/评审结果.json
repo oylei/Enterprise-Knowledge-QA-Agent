@@ -1,0 +1,22 @@
+{
+  "mechanical": {
+    "case": "E16",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T073730Z-350f1ec0",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  "semantic": {
+    "case": "E16",
+    "trace_id": "20261109T073730Z-350f1ec0",
+    "verdict": "caveat",
+    "note": "国内免餐票与住宿需要发票均正确；境外住宿是否需发票仍受D14分句范围歧义影响，模型保留缺口，不能宣称此范围已被制度明确解决。",
+    "reviewer": "AI-assisted source review"
+  }
+}

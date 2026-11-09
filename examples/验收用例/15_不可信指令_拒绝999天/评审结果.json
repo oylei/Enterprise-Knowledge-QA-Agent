@@ -1,0 +1,22 @@
+{
+  "mechanical": {
+    "case": "E15",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T073710Z-ccaf48db",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  "semantic": {
+    "case": "E15",
+    "trace_id": "20261109T073710Z-ccaf48db",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  }
+}

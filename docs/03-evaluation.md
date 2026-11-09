@@ -1,58 +1,43 @@
-# 评估结果与边界
+# 测试预期、实际结果与限制
 
-最新工程与批量评估见 [07-final-validation.md](07-final-validation.md)。下文为历史迭代记录，保留失败与修复过程；其中“待完成”状态以最新报告为准。
+正式评审入口：[examples/README.md](../examples/README.md)。以下23组均有真实输入、实际输出、Trace和元信息，覆盖正常、资料不足、工具失败以及所选题全部验收点。另有五类场景各三次重复测试。
 
-截至 2026-11-09：16 项离线测试通过，12 次真实模型业务运行形成终态（含首次资料替换暴露的问题）。当前使用 DeepSeek 官方 deepseek-v4-flash。不是 12 次无缺陷通过，也不是稳定成功率评估。
-
-离线原始结果：[test-results.txt](../examples/test-results.txt)。四组 Mock 记录：[run-summary.json](../examples/run-summary.json)，只证明流程。早期连接失败记录保留在 runs 中，不计入上述业务运行。
-
-## 真实模型首次验证（2026-11-09）
-
-当前使用 DeepSeek 官方接口、deepseek-v4-flash。两次实际运行成功：
-
-- [明确材料回答](../examples/runs/20261109T054606Z-ae976625/final.json)：answered，材料清单引用 D03 原文；额外期限及审批说明也有引用，但回答冗余，且将“未发现冲突”列入 gaps 不够准确。
-- [冲突回答](../examples/runs/20261109T054647Z-1314f313/final.json)：conflict，引用 D01 的 30 天与 D02 的 15 天，没有按新日期擅自选择，明确缺少适用和替代依据并追问。
-
-每个目录含实际 trace.jsonl、输入及元信息。以上是两条单次真实模型验证，不代表全部验收完成，后续批次如下。
-
-## 第二批真实模型评估（2026-11-09）
-
-模型：deepseek-v4-flash；每项执行一次。汇总见 [real-evaluation-summary.json](../examples/real-evaluation-summary.json)。
-
-| 用例 | 预期 | 实际 | 记录 |
+| 用例 | 预期状态 | 实际状态 | 运行记录 |
 |---|---|---|---|
-| E03 | answered | answered | [输出与同目录 Trace](../examples/runs/20261109T060146Z-6fcab144/final.json) |
-| E10 | conflict | conflict | [输出与同目录 Trace](../examples/runs/20261109T060155Z-756c779a/final.json) |
-| E11 | partial | partial | [输出与同目录 Trace](../examples/runs/20261109T060205Z-11c75081/final.json) |
-| E12 | answered | answered | [输出与同目录 Trace](../examples/runs/20261109T060211Z-2d7fb534/final.json) |
-| E14 | insufficient_evidence | insufficient_evidence | [输出与同目录 Trace](../examples/runs/20261109T060222Z-f29be225/final.json) |
-| E19 | tool_error | tool_error | [输出与同目录 Trace](../examples/runs/20261109T060235Z-fcf588ba/final.json) |
+| 01_正常回答_国内住宿限额 | answered | answered | [说明、输入、输出及Trace](../examples/验收用例/01_正常回答_国内住宿限额/说明.md) |
+| 02_正常回答_境外住宿限额 | answered | answered | [说明、输入、输出及Trace](../examples/验收用例/02_正常回答_境外住宿限额/说明.md) |
+| 03_适用范围_国内境外差异 | answered / needs_clarification | answered | [说明、输入、输出及Trace](../examples/验收用例/03_适用范围_国内境外差异/说明.md) |
+| 04_文档冲突_期限冲突与口语改写 | conflict | conflict | [说明、输入、输出及Trace](../examples/验收用例/04_文档冲突_期限冲突与口语改写/说明.md) |
+| 05_相似概念_付款时间与提交期限 | answered | answered | [说明、输入、输出及Trace](../examples/验收用例/05_相似概念_付款时间与提交期限/说明.md) |
+| 06_相似概念_预借款结清 | answered | answered | [说明、输入、输出及Trace](../examples/验收用例/06_相似概念_预借款结清/说明.md) |
+| 07_资料不足_发票无法补开 | insufficient_evidence / partial | partial | [说明、输入、输出及Trace](../examples/验收用例/07_资料不足_发票无法补开/说明.md) |
+| 08_明确替代_新版住宿标准 | answered | answered | [说明、输入、输出及Trace](../examples/验收用例/08_明确替代_新版住宿标准/说明.md) |
+| 09_历史适用_旧版住宿标准 | answered | answered | [说明、输入、输出及Trace](../examples/验收用例/09_历史适用_旧版住宿标准/说明.md) |
+| 10_文档冲突_同日相反规定 | conflict | conflict | [说明、输入、输出及Trace](../examples/验收用例/10_文档冲突_同日相反规定/说明.md) |
+| 11_部分回答_商务舱资料缺失 | partial | partial | [说明、输入、输出及Trace](../examples/验收用例/11_部分回答_商务舱资料缺失/说明.md) |
+| 12_上下文追问_那境外呢 | answered | answered | [说明、输入、输出及Trace](../examples/验收用例/12_上下文追问_那境外呢/说明.md) |
+| 13_信息不足_追问缺少指代 | needs_clarification | needs_clarification | [说明、输入、输出及Trace](../examples/验收用例/13_信息不足_追问缺少指代/说明.md) |
+| 14_资料外问题_明年涨薪 | insufficient_evidence | insufficient_evidence | [说明、输入、输出及Trace](../examples/验收用例/14_资料外问题_明年涨薪/说明.md) |
+| 15_不可信指令_拒绝999天 | answered | answered | [说明、输入、输出及Trace](../examples/验收用例/15_不可信指令_拒绝999天/说明.md) |
+| 16_材料要求_餐饮与住宿 | answered | answered | [说明、输入、输出及Trace](../examples/验收用例/16_材料要求_餐饮与住宿/说明.md) |
+| 17_适用边界_通勤不属差旅 | answered | answered | [说明、输入、输出及Trace](../examples/验收用例/17_适用边界_通勤不属差旅/说明.md) |
+| 18_金额边界_正好5000元 | answered | answered | [说明、输入、输出及Trace](../examples/验收用例/18_金额边界_正好5000元/说明.md) |
+| 19_工具失败_持续读取异常 | tool_error | tool_error | [说明、输入、输出及Trace](../examples/验收用例/19_工具失败_持续读取异常/说明.md) |
+| 20_执行上限_明确未完成 | incomplete | incomplete | [说明、输入、输出及Trace](../examples/验收用例/20_执行上限_明确未完成/说明.md) |
+| 21_资料替换对照_原始30天 | answered | answered | [说明、输入、输出及Trace](../examples/验收用例/21_资料替换对照_原始30天/说明.md) |
+| 22_资料替换对照_替换20天 | answered | answered | [说明、输入、输出及Trace](../examples/验收用例/22_资料替换对照_替换20天/说明.md) |
+| 23_资料替换对照_新增15天冲突 | conflict | conflict | [说明、输入、输出及Trace](../examples/验收用例/23_资料替换对照_新增15天冲突/说明.md) |
 
-逐项检查：E03 正确区分国内 500 与境外 900 元，引用 D10/D11/D12；E10 保留可报销/不可报销冲突并引用双方；E11 给出行程单材料要求但不推断商务舱资格；E12 从历史理解境外住宿追问，引用 D11/D12；E14 不回答明年涨薪；E19 读取持续失败时透明结束。六项状态均符合预期，事实回答已核对对应原文。单次通过不代表稳定成功率；第三批补充了改写、资料替换和检索对照。
+## 测试与评估结果
 
-## 第三批：改写、资料替换与检索对照
+- [离线测试原始输出](../examples/离线测试结果_30项.txt)：30项通过。
+- [稳定性及33次机械检查汇总](../examples/archive/v4原始全量回归/metrics.json)：33/33机械通过，不能解读为无语义缺陷。
+- [语义审查](../examples/archive/v4原始全量回归/review.json)：E16存在资料范围歧义，E17有非业务冗余措辞。
+- [开发集检索](../examples/检索对照_开发集8问.json)：Recall@5 87.5%→100%；[独立问法](../examples/检索对照_独立集12问.json)：83.3%→75%，未证明泛化提升。
+- [检索恢复审查](../examples/archive/检索恢复原始记录/review.json)：三项找回证据，但H08先肯定后保留，不能算语义通过。
 
-实际汇总：[real-regression-summary.json](../examples/real-regression-summary.json)。口语改写返回 answered，新增冲突返回 conflict。替换期限时模型确实引用了 20 天而不是旧 30 天，但初次返回 partial：它将泛化问法“报销期限”理解为多种报销，并把“其他类型未找到资料”错误关联到单一条款引用。因此初次不能记作完全通过。
+## 失败和已知限制
 
-已修改提示词 v2：claims 只放原文支持的制度事实，检索缺口放 gaps。使用明确差旅问法复测得到 answered，并正确引用 20 天；[复测记录](../examples/runs/20261109T061950Z-96a1f419/final.json)。此次同时改变提示词和问法，不能单独归因于提示词；回答冗余和过多缺口仍存在，未证明语义引用问题已全面解决。
+v2曾在冲突下建议按15天办理，v3存在版本日期与生效日期混淆、历史补充引用问题；均保留原始记录，v4修正后重新全量回归。语义审查为AI辅助阅读，不是独立人工盲评。三次重复不足以证明生产稳定性。原文逐字校验不能自动证明语义支持性。
 
-检索对照执行：`PYTHONPATH=src python3 scripts/evaluate_retrieval.py`。结果见 [retrieval-comparison.json](../examples/retrieval-comparison.json)。8 个开发用例，基线与当前仅在同义词归一化上不同：平均 Recall@5 为 0.875 → 1.0，全部必要文档召回比例为 0.875 → 1.0。包含两个期限冲突问法和一个非数字冲突问法。样本属于开发集，并非独立保留集；不能声称泛化性能提升或模型答案正确率提升。
-
-16 项离线测试仍通过。真实模型目前共 12 次成功形成业务终态，其中资料替换首次存在已记录的问题。未完成：独立检索保留集、多次重复稳定性评估、全部扩展问题真实运行。
-
-## 必验点与证据映射
-
-| 必验点 | 实际证据 |
-|---|---|
-| 明确答案 | 首批材料回答，D03 原文 |
-| 文档冲突 | 首批 30/15 天；第二批 E10 非数字冲突 |
-| 资料外问题 | E14，insufficient_evidence |
-| 改写后的相似问题 | 第三批 paraphrase，见 real-regression-summary.json |
-| 上下文追问 | E12，“那境外呢” |
-| 工具失败 | E19，持续 UNAVAILABLE 后 tool_error |
-| 执行上限 | tests/test_agent.py::test_limit，离线执行器测试 |
-| 修改文档改变答案与动作 | updated 与 new_conflict；首次缺陷和复测均保留 |
-
-资料替换不是相同提示词和相同问法的严格控制实验。提示词 v2 仅对修复后样例复测，尚未全量回归。原文逐字检查不能代替语义支持性判断；已有错误引用关联记录不能隐去。回答仍可能冗余、过度列举缺口。
-
-尚未完成：18 个扩展用例全部执行、独立检索保留集、多次重复稳定性、真实模型上限触发、自动语义支持性验证、完整协议异常测试。工具参数校验和网络错误诊断较基础；HTTP 异常在 Trace 中主要记录异常类型。所有个人参与与耗时须据实填写。
+详见[最终验证报告](07-final-validation.md)和[历史迭代记录](08-evaluation-history.md)。使用Python标准库原生实现，未采用Agent框架，因此无框架版本依赖。

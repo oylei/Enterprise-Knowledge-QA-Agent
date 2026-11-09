@@ -39,7 +39,7 @@ def main():
         rows.append(row)
     summary={name:dict(mean_recall_at_5=sum(r[name]['recall_at_5'] for r in rows)/len(rows),all_required_rate=sum(r[name]['all_required_recalled'] for r in rows)/len(rows)) for name in ['baseline','current']}
     result=dict(sample_size=len(rows),boundary='Small development set, not held-out; baseline differs only by synonym normalization. Not evidence of generalization or answer correctness.',summary=summary,cases=rows)
-    Path('examples/retrieval-comparison.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
+    Path('examples/检索对照_开发集8问.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(summary,indent=2))
 
 if __name__=="__main__":main()

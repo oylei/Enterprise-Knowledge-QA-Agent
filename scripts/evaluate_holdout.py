@@ -27,5 +27,5 @@ for ident,q,ds,relevant in CASES:
   row[name]=dict(ids=ids,recall_at_5=len(set(ids)&set(relevant))/len(relevant),all_required_recalled=set(relevant)<=set(ids))
  rows.append(row)
 summary={name:dict(mean_recall_at_5=sum(r[name]['recall_at_5'] for r in rows)/len(rows),all_required_rate=sum(r[name]['all_required_recalled'] for r in rows)/len(rows)) for name in ['baseline','current']}
-Path('examples/retrieval-holdout.json').write_text(json.dumps(dict(boundary='12 new author-created queries, frozen implementation; not external or blind benchmark. No retrieval tuning after observing results.',summary=summary,cases=rows),ensure_ascii=False,indent=2)+'\n')
+Path('examples/检索对照_独立集12问.json').write_text(json.dumps(dict(boundary='12 new author-created queries, frozen implementation; not external or blind benchmark. No retrieval tuning after observing results.',summary=summary,cases=rows),ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(summary));print('Current failures:',[r['id'] for r in rows if not r['current']['all_required_recalled']])

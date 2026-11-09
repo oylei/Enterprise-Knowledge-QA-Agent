@@ -7,9 +7,9 @@ import subprocess
 from pathlib import Path
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--provider',default='deepseek',choices=['deepseek','siliconflow']);parser.add_argument('--output',default='examples/final-evaluation');args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--provider',default='deepseek',choices=['deepseek','siliconflow']);parser.add_argument('--output',default='examples/new-evaluation');args=parser.parse_args()
     output=Path(args.output);output.mkdir(parents=True,exist_ok=True)
-    cases=json.loads(Path('examples/evaluation-cases.json').read_text())
+    cases=json.loads(Path('examples/评估用例定义_18个场景.json').read_text())
     for c in cases:
         c['accepted_statuses']=[c['expected_status']]
         if c['id']=='E03':c['accepted_statuses']+=['needs_clarification']

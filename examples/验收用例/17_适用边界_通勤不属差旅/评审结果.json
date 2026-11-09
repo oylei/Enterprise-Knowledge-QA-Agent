@@ -1,0 +1,22 @@
+{
+  "mechanical": {
+    "case": "E17",
+    "accepted_statuses": [
+      "answered"
+    ],
+    "status": "answered",
+    "trace_id": "20261109T073736Z-59201f93",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  "semantic": {
+    "case": "E17",
+    "trace_id": "20261109T073736Z-59201f93",
+    "verdict": "caveat",
+    "note": "通勤不属于差旅的结论及引用正确；额外“本月项目”是无依据的非业务措辞，需避免。",
+    "reviewer": "AI-assisted source review"
+  }
+}

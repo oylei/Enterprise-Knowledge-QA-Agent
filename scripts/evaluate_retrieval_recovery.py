@@ -1,7 +1,7 @@
 import json, subprocess
 from pathlib import Path
-root=Path('examples/retrieval-recovery');root.mkdir(parents=True,exist_ok=True)
-held=json.loads(Path('examples/retrieval-holdout.json').read_text())
+root=Path('examples/archive/检索恢复原始记录');root.mkdir(parents=True,exist_ok=True)
+held=json.loads(Path('examples/检索对照_独立集12问.json').read_text())
 rows=[]
 for c in held['cases']:
  if c['current']['all_required_recalled']:continue

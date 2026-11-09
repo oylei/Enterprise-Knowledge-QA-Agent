@@ -36,9 +36,9 @@ PYTHONPATH=src python3 -m enterprise_qa ask --provider deepseek --question '报�
 - docs/01-requirements.md：需求与验收矩阵。
 - docs/02-solution.md：当前实现、动态决策和技术取舍。
 - docs/03-evaluation.md：已运行结果及未完成项。
-- examples/run-summary.json：四条实际离线运行结果。
-- examples/runs/：对应输入、输出、元信息和 Trace。
-- examples/test-results.txt：实际测试输出。
+- examples/历史Mock运行汇总.json：四条实际离线运行结果。
+- examples/archive/早期运行记录/：对应输入、输出、元信息和 Trace。
+- examples/离线测试结果_30项.txt：实际测试输出。
 
 引用检查可防止引用未读取或不存在的文字，不能自动证明语义蕴含。已完成上述场景的单次真实模型验证与开发集检索对照，已补充五类核心场景各3次重复测试，样本量仍小。目标仓库为 https://github.com/oylei/Enterprise-Knowledge-QA-Agent ，发布状态见交付清单。
 
@@ -46,7 +46,7 @@ PYTHONPATH=src python3 -m enterprise_qa ask --provider deepseek --question '报�
 
 资料说明见 [data/README.md](data/README.md)。`data/rich.json` 为丰富但无故意未消解冲突的资料；`data/rich_conflict.json` 加入期限冲突。另有适用范围、明确替代、同日非数字冲突、部分缺失和不可信指令快照。
 
-[examples/evaluation-cases.json](examples/evaluation-cases.json) 包含 18 个评估输入与人工检查标准，尚不是实际输出。18项已全部执行真实模型验证，另有工具失败、上限与资料替换对照；机械检查不等于语义审查。
+[examples/评估用例定义_18个场景.json](examples/评估用例定义_18个场景.json) 包含 18 个评估输入与人工检查标准，尚不是实际输出。18项已全部执行真实模型验证，另有工具失败、上限与资料替换对照；机械检查不等于语义审查。
 
 ## 可选平台：硅基流动
 
@@ -84,3 +84,7 @@ python3 scripts/summarize_evaluation.py examples/new-evaluation
 ```
 
 最新结论见 [最终验证报告](docs/07-final-validation.md)。独立检索集出现退步和模型语义问题都保留，不能把33项机械通过解读为33项无缺陷。默认重复集合覆盖明确答案、冲突、上下文、资料外和工具失败。
+
+## 按考核规范查看验证材料
+
+首先打开 [验证材料索引](examples/README.md)，再按 [评估文档](docs/03-evaluation.md) 中的场景链接查看。正式用例使用明确的场景目录名及“输入/实际输出/执行Trace/运行元信息”文件名；历史日志位于 examples/archive，保留原始内容以便复核。

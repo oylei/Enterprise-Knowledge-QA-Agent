@@ -1,0 +1,31 @@
+{
+  "provider": "deepseek",
+  "model": "deepseek-v4-flash",
+  "dataset_sha256": "0d2f9c123f2b124912722d1911df8a0ae004fb5b965286b210d5fdb056d5dc8a",
+  "config": {
+    "command": "ask",
+    "question": null,
+    "input": "examples/final-v4/E13-input.json",
+    "env_file": ".env",
+    "dataset": "data/rich.json",
+    "provider": "deepseek",
+    "max_turns": 12,
+    "max_calls": 16,
+    "fail_reads": 0,
+    "output_dir": "examples/final-v4/runs"
+  },
+  "prompt_version": "v4",
+  "prompt_sha256": "6ab6fe8b4243396a3d4e0b5c75f2d10c5ec7b1dcd509fed8c1321710560b62e9",
+  "source_sha256": "4f090b8da1e3dacf500c41aa2bfeeebb980b64beca36f7df630d09b62d76984a",
+  "http_attempts": [
+    {
+      "attempt": 1,
+      "status": "ok"
+    },
+    {
+      "attempt": 1,
+      "status": "ok"
+    }
+  ],
+  "mock_boundary": null
+}

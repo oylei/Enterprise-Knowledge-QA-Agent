@@ -95,7 +95,7 @@ DeepSeek 官方提供由应用执行工具、再回传工具结果的 Tool Calls
 
 ## 9. 输出与可复现记录
 
-每次运行保存 examples/runs/<run_id>/input.json、final.json、trace.jsonl、metadata.json。元信息包含运行模式、模型名称、配置、资料哈希、提示词版本、代码版本（可获取时）、时间及用量（API 提供时）。不持久化密钥或内部推理字段；公开 Trace 仅含动作目的和结果摘要。
+每次运行保存 examples/archive/早期运行记录/<run_id>/input.json、final.json、trace.jsonl、metadata.json。元信息包含运行模式、模型名称、配置、资料哈希、提示词版本、代码版本（可获取时）、时间及用量（API 提供时）。不持久化密钥或内部推理字段；公开 Trace 仅含动作目的和结果摘要。
 
 真实模型结果可能存在波动，因此关键用例计划重复 3 次，逐次保留失败而非只选择最好结果。机械检查覆盖结构、原文、上限；人工审查覆盖事实支持性、遗漏冲突和追问质量。LLM 自评不能替代事实审查。
 

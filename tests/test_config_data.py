@@ -28,7 +28,7 @@ class ConfigDataTests(unittest.TestCase):
             for d in kb.docs:
                 self.assertRegex(d['version_date'],r'^\d{4}-\d{2}-\d{2}$')
                 self.assertTrue(d['chunks'])
-        cases=json.loads(Path('examples/evaluation-cases.json').read_text())
+        cases=json.loads(Path('examples/评估用例定义_18个场景.json').read_text())
         self.assertEqual(len({c['id'] for c in cases}),len(cases))
         for c in cases:
             ids={d['doc_id'] for d in Knowledge(c['dataset']).docs}

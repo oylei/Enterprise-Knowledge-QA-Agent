@@ -1,0 +1,22 @@
+{
+  "mechanical": {
+    "case": "E14_repeat2",
+    "accepted_statuses": [
+      "insufficient_evidence"
+    ],
+    "status": "insufficient_evidence",
+    "trace_id": "20261109T073854Z-f15dd519",
+    "checks": {
+      "status": true,
+      "required_documents": true
+    },
+    "mechanical_pass": true
+  },
+  "semantic": {
+    "case": "E14_repeat2",
+    "trace_id": "20261109T073854Z-f15dd519",
+    "verdict": "pass",
+    "note": "已核对最终回答、claims和引用原文，核心结论有支持；不等于独立人工盲评或未来运行保证。",
+    "reviewer": "AI-assisted source review"
+  }
+}

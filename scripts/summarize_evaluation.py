@@ -1,7 +1,7 @@
 import argparse
 import json
 from pathlib import Path
-p=argparse.ArgumentParser();p.add_argument('directory',nargs='?',default='examples/final-evaluation');a=p.parse_args();root=Path(a.directory)
+p=argparse.ArgumentParser();p.add_argument('directory',nargs='?',default='examples/new-evaluation');a=p.parse_args();root=Path(a.directory)
 rows=json.loads((root/'summary.json').read_text())
 stability={}
 for name in ['E01','E04','E12','E14','E19']:
